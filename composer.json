@@ -1,5 +1,5 @@
 {
-	"name": "omarabid/wp-notify",
+	"name": "wpplex/wp-notify",
 	"type": "library",
 	"description": "A small notification class to manage your WordPress Admin Notifications.",
 	"keywords": ["wordpress", "notifications"],
@@ -18,7 +18,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "omarabid\\": ""
+            "omarabid\\WP_Notify": ""
         }
     }
 }
