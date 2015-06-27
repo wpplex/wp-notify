@@ -1,5 +1,5 @@
 <?php
-namespace omarabid;
+namespace wpplex\WP_Notify;
 
 /**
  * WordPress Easy Notifications
