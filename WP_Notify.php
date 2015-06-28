@@ -77,7 +77,8 @@ class WP_Notify {
             $namespace = $_POST['namespace'];
             $id = $_POST['id'];
 
-            $notify = new BP_Utils_Notify( $namespace );
+			$n_class = get_class();
+            $notify = new $n_class( $namespace );
             $notify->hide_notification( $id );
         }
         exit;
